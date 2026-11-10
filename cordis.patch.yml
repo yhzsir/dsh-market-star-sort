@@ -1,0 +1,6 @@
+# Host half of the star sort: it enriches fetches of a configured plugin market
+# index so the Discover tab's sort menu offers "Stars" (GitHub stars).
+# Options (all optional): catalogUrl, refreshHours, fetchTimeoutMs, indexUrls.
+- insert:
+    - id: market-star-sort
+      name: dsh-market-star-sort

@@ -1,0 +1,43 @@
+{
+  "name": "dsh-market-star-sort",
+  "version": "1.0.0",
+  "description": "Adds a GitHub star-count order to the Discover tab of the DSH Web plugin market",
+  "type": "module",
+  "license": "MIT",
+  "author": "yhzsir",
+  "homepage": "https://github.com/yhzsir/dsh-market-star-sort#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhzsir/dsh-market-star-sort.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yhzsir/dsh-market-star-sort/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-market",
+    "sort"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "data/stars.json",
+    "locale/*.json",
+    "icon.svg",
+    "icon.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

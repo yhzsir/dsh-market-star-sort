@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Discover star sort",
+    "description": "Adds a GitHub star-count order to the Discover tab's sort menu, using the star counts of the configured plugin index."
+  }
+}
